@@ -1,0 +1,19 @@
+'.source.js .source.jsx':
+    'Promise.all':
+        'prefix': 'all'
+        'body': 'Promise.all($0)'
+    'Promise.then':
+        'prefix': 'then'
+        'body': 'Promise.then($0)'
+    'arrow function':
+        'prefix': 'af'
+        'body': """${1:arguments} => {
+                    ${2:statement}
+                }
+                """
+    'console.dir':
+        'prefix': 'dir'
+        'body': 'console.dir($0)'
+    'console.log':
+        'prefix': 'log'
+        'body': 'console.log($0)'

@@ -1,0 +1,28 @@
+'.source.js .source.jsx':
+    'return':
+        'prefix': 'return'
+        'body': 'return'
+    'export':
+        'prefix': 'export'
+        'body': 'export'
+    'prototype':
+        'prefix': 'prototype'
+        'body': 'prototype'
+    'Object':
+        'prefix': 'Object'
+        'body': 'Object'
+    'true':
+        'prefix': 't'
+        'body': 'true'
+    'false':
+        'prefix': 'fa'
+        'body': 'false'
+    'undefined':
+        'prefix': 'undefined'
+        'body': 'undefined'
+    'window':
+        'prefix': 'window'
+        'body': 'window'
+    'document':
+        'prefix': 'document'
+        'body': 'document'
