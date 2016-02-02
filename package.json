@@ -1,7 +1,7 @@
 {
   "name": "simplyy-snippets",
   "main": "./lib/simplyy-snippets",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "simplyy-snippets",
   "keywords": [],
   "activationCommands": {
