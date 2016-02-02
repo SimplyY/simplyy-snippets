@@ -6,7 +6,7 @@
         'prefix': 'then'
         'body': 'Promise.then($0)'
     'arrow function':
-        'prefix': 'af'
+        'prefix': 'afun'
         'body': """${1:arguments} => {
                     ${2:statement}
                 }
