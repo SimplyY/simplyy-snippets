@@ -1,4 +1,4 @@
-'.source.js .source.jsx':
+'.source.js':
     'Promise.all':
         'prefix': 'all'
         'body': 'Promise.all($0)'

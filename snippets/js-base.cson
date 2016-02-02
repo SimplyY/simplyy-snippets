@@ -1,4 +1,4 @@
-'.source.js .source.jsx':
+'.source.js':
     'return':
         'prefix': 'return'
         'body': 'return'
