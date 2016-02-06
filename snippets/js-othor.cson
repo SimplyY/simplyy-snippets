@@ -1,0 +1,15 @@
+".source.js, .source.jsx, .source.ts":
+    "setInterval":
+        "prefix": "setInterval"
+        "body": """
+                setInterval(function() {
+                \t${0:// body...}
+                }, ${1:delay})
+                """
+    "setTimeout":
+        "prefix": "setTimeout"
+        "body": """
+                setTimeout(function() {
+                \t${0:// body...}
+                }, ${1:delay});
+                """

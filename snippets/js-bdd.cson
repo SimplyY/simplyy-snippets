@@ -1,0 +1,20 @@
+".source.js, .source.jsx, .source.ts":
+    "describe":
+        "prefix": "desc"
+        "body": """
+        describe('${1:description}', function() {
+        \t${0:// body...}
+        })
+        """
+    "it pending":
+        "prefix": "itp"
+        "body": """
+        it('${1:description}')
+        """
+    "it asynchronous":
+        "prefix": "ita"
+        "body": """
+        it('${1:description}', function(done) {
+        \t${0:// body...}
+        })
+        """

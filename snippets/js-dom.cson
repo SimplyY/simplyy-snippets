@@ -1,0 +1,84 @@
+".source.js, .source.jsx, .source.ts":
+    "addEventListener":
+        "prefix": "add"
+        "body": """
+                ${1:document}.addEventListener('${2:event}', function(e) {
+                \t${0:// body...}
+                })
+                """
+    "getAttribute":
+        "prefix": "getAttribute"
+        "body": """
+                getAttribute('${2:attr}')
+                """
+    "removeAttribute":
+        "prefix": "removeAttribute"
+        "body": """
+                removeAttribute('${2:attr}')
+                """
+    "setAttribute":
+        "prefix": "setAttribute"
+        "body": """
+                setAttribute('${2:attr}', ${3:value})
+                """
+    "appendChild":
+        "prefix": "appendChild"
+        "body": """
+                appendChild(${2:elem})
+                """
+    "removeChild":
+        "prefix": "removeChild"
+        "body": """
+                removeChild(${2:elem})
+                """
+    "createElement":
+        "prefix": "createElement"
+        "body": """
+                createElement(${2:elem})
+                """
+    "getElementsByClassName":
+        "prefix": "getElementsByClassName"
+        "body": """
+                getElementsByClassName('${2:class}')
+                """
+    "getElementById":
+        "prefix": "getElementById"
+        "body": """
+                getElementById('${2:id}')
+                """
+    "getElementsByTagName":
+        "prefix": "getElementsByTagName"
+        "body": """
+                ${1:document}.getElementsByTagName('${2:tag}')
+                """
+    "innerHTML":
+        "prefix": "innerHTML"
+        "body": """
+                innerHTML = '${2:elem}'
+                """
+    "querySelector":
+        "prefix": "querySelector"
+        "body": """
+                querySelector('${2:selector}')
+                """
+    "querySelectorAll":
+        "prefix": "querySelectorAll"
+        "body": """
+                querySelectorAll('${2:selector}')
+                """
+    "textContent":
+        "prefix": "textContent"
+        "body": """
+                textContent = '${2:content}'
+                """
+# classList ie > 10
+    "classList.add":
+        "prefix": "classList.add"
+        "body": """
+                classList.add('${2:class}')
+                """
+    "classList.remove":
+        "prefix": "classList.remove"
+        "body": """
+                classList.remove('${2:class}')
+                """

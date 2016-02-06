@@ -1,0 +1,20 @@
+".source.js, .source.jsx, .source.ts":
+    'react class':
+        'prefix': 'react class'
+        'body': """
+                    import React, {Component} from 'react'
+
+                    class ${1:className} extends Component {
+                        constructor() {
+                            super()
+                        }
+                        render() {
+                            return (
+                                <div>
+                                </div>
+                            )
+                        }
+                    }
+
+                    export default ${1:className}
+                """

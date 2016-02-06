@@ -12,10 +12,10 @@
         'prefix': 'Object'
         'body': 'Object'
     'true':
-        'prefix': 't'
+        'prefix': 'true'
         'body': 'true'
     'false':
-        'prefix': 'fa'
+        'prefix': 'false'
         'body': 'false'
     'undefined':
         'prefix': 'undefined'
@@ -26,3 +26,12 @@
     'document':
         'prefix': 'document'
         'body': 'document'
+    'parse'
+        'prefix': 'parse'
+        'body': 'parse'
+    'alert'
+        'prefix': 'alert'
+        'body': 'alert'
+    'assert'
+        'prefix': 'assert'
+        'body': 'assert'

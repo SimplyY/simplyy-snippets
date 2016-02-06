@@ -1,0 +1,14 @@
+".source.js, .source.jsx, .source.ts":
+'import':
+    'prefix': 'import'
+    'body': 'import { ${1} } from \'${0}\''
+"module.exports":
+    "prefix": "module"
+    "body": """
+            module.exports = ${1:name}
+            """
+"require":
+    "prefix": "require"
+    "body": """
+            require('${1:module}')
+            """

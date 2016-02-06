@@ -1,0 +1,17 @@
+".source.js, .source.jsx, .source.ts":
+    "forEach":
+        "prefix": "forEach"
+        "body": """
+                forEach(${1:item} =>(${2:elem}) {
+                \t${0:// body...}
+                })
+                """
+    "for in loop":
+        "prefix": "forin"
+        "body": """
+                for (${1:prop} in ${2:obj}) {
+                \tif (${2:obj}.hasOwnProperty(${1:prop})) {
+                \t\t${0:// body...}
+                \t}
+                }
+                """

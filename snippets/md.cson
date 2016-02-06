@@ -1,0 +1,22 @@
+'.source.gfm':
+    'html code':
+        'prefix': 'html'
+        'body': """
+                ```html
+                ${0}
+                ```
+                """
+    'css code':
+        'prefix': 'css'
+        'body': """
+                ```css
+                ${0}
+                ```
+                """
+    'js code':
+        'prefix': 'js'
+        'body': """
+                ```js
+                ${0}
+                ```
+                """

@@ -1,7 +1,0 @@
-".source.js, .source.jsx, .source.ts":
-    'arrow function':
-        'prefix': 'afun'
-        'body': """${1:arguments} => {
-                    ${2:statement}
-                }
-                """

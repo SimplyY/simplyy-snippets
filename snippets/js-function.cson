@@ -1,0 +1,38 @@
+".source.js, .source.jsx, .source.ts":
+    'arrow function':
+        'prefix': 'afun'
+        'body': """${1:arguments} => {
+                    ${2:statement}
+                }
+                """
+    "anonymous function":
+        "prefix": "f"
+        "body": """
+                function(${1:arguments}) {
+                \t${0:// body...}
+                }
+                """
+    "function apply":
+        "prefix": "apply"
+        "body": """
+                apply(${2:this}, ${3:array})
+                """
+    "function call":
+        "prefix": "call"
+        "body": """
+                call(${2:this}, ${3:arguments})
+                """
+    "immediately-invoked function expression":
+        "prefix": "iife"
+        "body": """
+                (function(window, document, undefined) {
+                \t${0:// body...}
+                })(window, document);
+                """
+    "function with name":
+        "prefix": "fn"
+        "body": """
+                function ${1:methodName} (${2:arguments}) {
+                \t${0:// body...}
+                }
+                """
