@@ -1,4 +1,13 @@
 ".source.js, .source.jsx, .source.ts":
+    "parse":
+        "prefix": "parse"
+        "body": "parse"
+    "alert":
+        "prefix": "alert"
+        "body": "alert"
+    "assert":
+        "prefix": "assert"
+        "body": "assert"
     "return":
         "prefix": "return"
         "body": "return"
@@ -26,12 +35,3 @@
     "document":
         "prefix": "document"
         "body": "document"
-    "parse"
-        "prefix": "parse"
-        "body": "parse"
-    "alert"
-        "prefix": "alert"
-        "body": "alert"
-    "assert"
-        "prefix": "assert"
-        "body": "assert"
