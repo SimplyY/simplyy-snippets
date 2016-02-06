@@ -1,15 +1,17 @@
 {
   "name": "simplyy-snippets",
   "main": "./lib/simplyy-snippets",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "simplyy-snippets",
-  "keywords": ["snippets"],
+  "keywords": [
+    "snippets"
+  ],
   "activationCommands": {
     "atom-workspace": "simplyy-snippets:toggle"
   },
-  "repository":{
-      "type": "git",
-      "url": "git+https://github.com/SimplyY/simplyy-snippets.git"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimplyY/simplyy-snippets.git"
   },
   "license": "MIT",
   "engines": {
