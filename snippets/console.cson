@@ -1,0 +1,7 @@
+".source.js, .source.jsx, .source.ts":
+    'console.dir':
+        'prefix': 'dir'
+        'body': 'console.dir($0)'
+    'console.log':
+        'prefix': 'log'
+        'body': 'console.log($0)'

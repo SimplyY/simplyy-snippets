@@ -1,0 +1,7 @@
+".source.js, .source.jsx, .source.ts":
+    'Promise.all':
+        'prefix': 'all'
+        'body': 'Promise.all($0)'
+    'Promise.then':
+        'prefix': 'then'
+        'body': 'Promise.then($0)'
