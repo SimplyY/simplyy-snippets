@@ -1,37 +1,37 @@
 ".source.js, .source.jsx, .source.ts":
-    'return':
-        'prefix': 'return'
-        'body': 'return'
-    'export':
-        'prefix': 'export'
-        'body': 'export'
-    'prototype':
-        'prefix': 'prototype'
-        'body': 'prototype'
-    'Object':
-        'prefix': 'Object'
-        'body': 'Object'
-    'true':
-        'prefix': 'true'
-        'body': 'true'
-    'false':
-        'prefix': 'false'
-        'body': 'false'
-    'undefined':
-        'prefix': 'undefined'
-        'body': 'undefined'
-    'window':
-        'prefix': 'window'
-        'body': 'window'
-    'document':
-        'prefix': 'document'
-        'body': 'document'
-    'parse'
-        'prefix': 'parse'
-        'body': 'parse'
-    'alert'
-        'prefix': 'alert'
-        'body': 'alert'
-    'assert'
-        'prefix': 'assert'
-        'body': 'assert'
+    "return":
+        "prefix": "return"
+        "body": "return"
+    "export":
+        "prefix": "export"
+        "body": "export"
+    "prototype":
+        "prefix": "prototype"
+        "body": "prototype"
+    "Object":
+        "prefix": "Object"
+        "body": "Object"
+    "true":
+        "prefix": "true"
+        "body": "true"
+    "false":
+        "prefix": "false"
+        "body": "false"
+    "undefined":
+        "prefix": "undefined"
+        "body": "undefined"
+    "window":
+        "prefix": "window"
+        "body": "window"
+    "document":
+        "prefix": "document"
+        "body": "document"
+    "parse"
+        "prefix": "parse"
+        "body": "parse"
+    "alert"
+        "prefix": "alert"
+        "body": "alert"
+    "assert"
+        "prefix": "assert"
+        "body": "assert"
