@@ -1,7 +1,7 @@
 {
   "name": "simplyy-snippets",
   "main": "./lib/simplyy-snippets",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "simplyy-snippets",
   "keywords": [
     "snippets"
