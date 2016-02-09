@@ -1,0 +1,25 @@
+".source.js, .source.ts, .source.tsx":
+  "String":
+    prefix: "String"
+    body: "String"
+  "Number":
+    prefix: "Number"
+    body: "Number"
+  "Object":
+    prefix: "Object"
+    body: "Object"
+  "Array":
+    prefix: "Array"
+    body: "Array"
+  "Date":
+    prefix: "Date"
+    body: "Date"
+  "RegExp":
+    prefix: "RegExp"
+    body: "RegExp"
+  "typeof":
+    prefix: "typeof"
+    body: "typeof ${1:source} === '${2:type}'"
+  "instanceof":
+    prefix: "instanceof"
+    body: "instanceof ${2:Object}"

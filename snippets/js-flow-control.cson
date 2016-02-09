@@ -1,0 +1,78 @@
+".source.js, .source.ts, .source.tsx":
+    "if statement":
+        prefix: "if"
+        body: """
+              if (${1:condition}) {
+              \t${0}
+              }
+              """
+    "else statement":
+        prefix: "else"
+        body: """
+              else {
+              \t${0}
+              }
+              """
+    "if/else statement":
+        prefix: "ife"
+        body: """
+              if (${1:condition}) {
+              \t${0}
+              } else {
+              \t
+              }
+              """
+    "else if statement":
+        prefix: "elseif"
+        body: """
+              else if (${1:condition}) {
+              \t${0}
+              }
+              """
+    "while loop":
+        prefix: "while"
+        body: """
+              while (${1:condition}) {
+              \t${0}
+              }
+              """
+    "try/catch":
+        prefix: "tryc"
+        body: """
+              try {
+              \t${1}
+              } catch (${2:err}) {
+              \t
+              }
+              """
+    "try/finally":
+        prefix: "tryf"
+        body: """
+              try {
+              \t${0}
+              } finally {
+              \t
+              }
+              """
+    "try/catch/finally":
+        prefix: "trycf"
+        body: """
+              try {
+              \t${1}
+              } catch (${2:err}) {
+              \t
+              } finally {
+              \t
+              }
+              """
+    "switch case":
+        prefix: "switch"
+        body: """
+              switch (${1:expression}) {
+              \tcase ${2:value}:
+              \t\t${0:code}
+              \t\tbreak
+              \tdefault:
+              \t\t
+              }
+              """

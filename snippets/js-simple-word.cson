@@ -17,9 +17,6 @@
     "prototype":
         "prefix": "prototype"
         "body": "prototype"
-    "Object":
-        "prefix": "Object"
-        "body": "Object"
     "true":
         "prefix": "true"
         "body": "true"
@@ -35,3 +32,6 @@
     "document":
         "prefix": "document"
         "body": "document"
+    "const":
+        "prefix": "const"
+        "body": "const"

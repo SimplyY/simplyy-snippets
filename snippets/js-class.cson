@@ -1,0 +1,20 @@
+".source.js, .source.ts, .source.tsx":
+    "class":
+        prefix: "class"
+        body: """
+        class ${1:name} {
+        \tconstructor(${2:arguments}) {
+        \t\t${0}
+        \t}
+        }
+        """
+    "class extends":
+        prefix: "classe"
+        body: """
+        class ${1:name} extends ${2:base} {
+        \tconstructor(${3:arguments}) {
+        \t\tsuper(${3:arguments})
+        \t\t${0}
+        \t}
+        }
+        """

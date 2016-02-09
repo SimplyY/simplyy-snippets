@@ -1,0 +1,61 @@
+".source.js":
+    "array.filter":
+        "prefix": "filter"
+        "body": """
+                filter($0)
+                """
+    "array.filter arrow f":
+        "prefix": "filtera"
+        "body": """
+                filter(${2:item} => {
+                \t${0:// body...maybe empty}
+                \treturn
+                })
+                """
+    "array.map":
+        "prefix": "map"
+        "body": """
+                map($0)
+                """
+    "array.map arrow f":
+        "prefix": "mapa"
+        "body": """
+                map(${2:item} => {
+                \t${0:// body...}
+                \treturn
+                })
+                """
+    "array.reduce":
+        "prefix": "reduce"
+        "body": """
+                reduce($0)
+                """
+    "array.reduce arrow f":
+        "prefix": "reducea"
+        "body": """
+                reduce((${2:previousValue}, ${3:currentItem}) => {
+                \t${0:// body...maybe empty}
+                \treturn
+                })
+                """
+    "array.forEach arrow f":
+        "prefix": "foreacha"
+        "body": """
+                forEach(${2:item} => {
+                \t${0:// body...}
+                })
+                """
+    "sequence from 0 to n":
+        "prefix": "sequence"
+        "body": """
+                [...Array(${1:length}).keys()]${0}
+                """
+    "array.find":
+        "prefix": "find"
+        "body": "find($0)"
+    "array.find arrow f":
+        "prefix": "finda"
+        "body": "find((${1:item}) => {
+                \t${0:body}
+                \treturn
+                })"

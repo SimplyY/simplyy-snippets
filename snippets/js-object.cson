@@ -1,0 +1,4 @@
+".source.js, .source.ts, .source.tsx":
+    "Object.assign":
+        prefix: "assign"
+        body: "assign(${1:dest}, ${2:source})"

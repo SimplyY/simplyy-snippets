@@ -1,6 +1,9 @@
 ".source.js, .source.jsx, .source.ts":
-    'arrow function':
+    'arrow function a line':
         'prefix': 'afun'
+        'body': "${1:arguments} => ${0:expression returned}"
+    'arrow function mutiline':
+        'prefix': 'afunm'
         'body': """${1:arguments} => {
                     ${2:statement}
                 }
@@ -22,17 +25,36 @@
         "body": """
                 call(${2:this}, ${3:arguments})
                 """
-    "immediately-invoked function expression":
-        "prefix": "iife"
+    "function bind":
+        "prefix": "bind"
         "body": """
-                (function(window, document, undefined) {
-                \t${0:// body...}
-                })(window, document);
+                bind(${2:this}, ${3:arguments})
                 """
-    "function with name":
-        "prefix": "fn"
-        "body": """
-                function ${1:methodName} (${2:arguments}) {
-                \t${0:// body...}
-                }
-                """
+        "immediately-invoked function expression":
+            "prefix": "iife"
+            "body": """
+                    (function(window, document, undefined) {
+                    \t${0:// body...}
+                    })(window, document);
+                    """
+        "function with name":
+            "prefix": "fn"
+            "body": """
+                    function ${1:methodName} (${2:arguments}) {
+                    \t${0:// body...}
+                    }
+                    """
+        "generator function":
+            "prefix": "gfn"
+            "body": """
+                    function * ${1:methodName} (${2:arguments}) {
+                    \t${0:// body...}
+                    }
+                    """
+        "add prototype method":
+            "prefix": "prototype"
+            "body": """
+                    prototype.${2:methodName} = function(${3:arguments}) {
+                    \t${0:// body...}
+                    }
+                    """

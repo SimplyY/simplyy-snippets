@@ -1,4 +1,7 @@
-".source.js, .source.jsx, .source.ts":
+".source.js, .source.ts, .source.tsx":
+    "on event handler":
+        "prefix": "on"
+        "body": "on('${2:event}', (${3:arguments}) => {${0}})"
     "setInterval":
         "prefix": "setInterval"
         "body": """
@@ -11,5 +14,5 @@
         "body": """
                 setTimeout(function() {
                 \t${0:// body...}
-                }, ${1:delay});
+                }, ${1:delay})
                 """
