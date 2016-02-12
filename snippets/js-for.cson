@@ -9,7 +9,7 @@
     "forEach":
         "prefix": "forEach"
         "body": """
-                forEach(${1:item} =>(${2:elem}) {
+                forEach(${1:item} => {
                 \t${0:// body...}
                 })
                 """
