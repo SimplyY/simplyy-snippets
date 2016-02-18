@@ -18,3 +18,17 @@
 
                     export default ${1:className}
                 """
+    'className react':
+        'prefix': 'className'
+        'body': 'className="$0"'
+    'onClick react':
+        'prefix': 'onClick'
+        'body':"""onClick={() => {
+                    $0
+                \t}}"""
+    'preventDefault':
+        'prefix': 'preventDefault'
+        'body': 'preventDefault()'
+    'stopPropagation':
+        'prefix': 'stopPropagation'
+        'body': 'stopPropagation()'

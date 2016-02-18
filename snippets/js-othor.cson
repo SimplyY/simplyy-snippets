@@ -16,3 +16,11 @@
                 \t${0:// body...}
                 }, ${1:delay})
                 """
+    "log perfamance":
+        "prefix": "logperfamance"
+        "body": """
+                let time1 = Date.now()
+                ${1://do something}
+                let time2 = Date.now()
+                console.log(time2 - time1)
+                """

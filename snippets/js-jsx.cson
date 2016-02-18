@@ -163,18 +163,12 @@
   'Italic':
     'prefix': 'i'
     'body': '<i>$1</i>$0'
-  'Inline Frame':
-    'prefix': 'iframe'
-    'body': '<iframe src="$1" width="$2" height="$3">$4</iframe>$0'
   'Input':
     'prefix': 'input'
     'body': '<input type="${1:button}" name="${2:name}" value="$3">$0'
   'Image':
     'prefix': 'img'
     'body': '<img src="$1" alt="$2" />$0'
-  'Import':
-    'prefix': 'import'
-    'body': '<link rel="import" href="$1">$0'
   'Inserted Text':
     'prefix': 'ins'
     'body': '<ins>$1</ins>$0'
