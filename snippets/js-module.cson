@@ -2,10 +2,16 @@
     "import":
         "prefix": "import"
         "body": "import { ${1} } from '${0}'"
+    "import default":
+        "prefix": "importd"
+        "body": "import ${1} from '${0}'"
+    "import as":
+        "prefix": "importa"
+        "body": "import * as ${1} from '${0}'"
     "require":
         "prefix": "require"
         "body": """
-                require("${1:module}")
+                require('${1:module}')
                 """
     "module.exports":
         "prefix": "module"

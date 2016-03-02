@@ -24,8 +24,8 @@
     'onClick react':
         'prefix': 'onClick'
         'body':"""onClick={() => {
-                    $0
-                \t}}"""
+                \t$0
+                }}"""
     'preventDefault':
         'prefix': 'preventDefault'
         'body': 'preventDefault()'

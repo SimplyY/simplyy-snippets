@@ -13,15 +13,6 @@
               \t${0}
               }
               """
-    "if/else statement":
-        prefix: "ife"
-        body: """
-              if (${1:condition}) {
-              \t${0}
-              } else {
-              \t
-              }
-              """
     "else if statement":
         prefix: "elseif"
         body: """
