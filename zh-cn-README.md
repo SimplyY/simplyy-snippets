@@ -1,6 +1,6 @@
 # simplyy-snippets atom package
 ## 安装
-apm isntall simplyy-snippets
+apm install simplyy-snippets
 
 
 ## 介绍
