@@ -20,3 +20,31 @@
                 ${0}
                 ```
                 """
+    'cpp code':
+        'prefix': 'cpp'
+        'body': """
+                ```cpp
+                ${0}
+                ```
+                """
+    'python code':
+        'prefix': 'python'
+        'body': """
+                ```python
+                ${0}
+                ```
+                """
+    'ruby code':
+        'prefix': 'ruby'
+        'body': """
+                ```ruby
+                ${0}
+                ```
+                """
+    'java code':
+        'prefix': 'java'
+        'body': """
+                ```java
+                ${0}
+                ```
+                """
