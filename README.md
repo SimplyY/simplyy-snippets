@@ -1,4 +1,6 @@
 # simplyy-snippets package
+avoid different atom snippets package's repeat snippets and unify all of their snippets style。
+
 a lot of js snippets collections, with es6 grammer,no semicolon style, learned from other package like javascript-snippets,turbo-javascript etc(copy and inprove, so avoid their repeat snippets and unify all of their snippets style)
 
 ## install
