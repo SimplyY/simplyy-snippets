@@ -8,6 +8,9 @@ a lot of js snippets collections, with es6 grammer,no semicolon style, learned f
 ## install
 apm install simplyy-snippets
 
+## demo
+![demo](http://7xkpdt.com1.z0.glb.clouddn.com/blog-2-29-test.gif)
+
 ## purpose
 when you install mutipackages, you will find snippets style is a mess, and different snippets even has lots of conflicts in some keyword
 
