@@ -4,8 +4,13 @@
         "body": """
                 filter($0)
                 """
-    "array.filter arrow f":
+    "array.map arrow":
         "prefix": "filtera"
+        "body": """
+                filter(item => ${0:item})
+                """
+    "array.filter muti arrow f":
+        "prefix": "filterma"
         "body": """
                 filter(${2:item} => {
                 \t${0:// body...maybe empty}
@@ -17,8 +22,13 @@
         "body": """
                 map($0)
                 """
-    "array.map arrow f":
+    "array.map arrow":
         "prefix": "mapa"
+        "body": """
+                map(item => ${0:item})
+                """
+    "array.map muti arrow f":
+        "prefix": "mapma"
         "body": """
                 map(${2:item} => {
                 \t${0:// body...}
@@ -38,8 +48,13 @@
                 \treturn
                 })
                 """
-    "array.forEach arrow f":
-        "prefix": "foreacha"
+    "array.forEach":
+        "prefix": "forEach"
+        "body": """
+                forEach($0)
+                """
+    "array.forEach muti arrow f":
+        "prefix": "foreachma"
         "body": """
                 forEach(${2:item} => {
                 \t${0:// body...}
@@ -53,8 +68,8 @@
     "array.find":
         "prefix": "find"
         "body": "find($0)"
-    "array.find arrow f":
-        "prefix": "finda"
+    "array.find muti arrow f":
+        "prefix": "findma"
         "body": "find((${1:item}) => {
                 \t${0:body}
                 \treturn
