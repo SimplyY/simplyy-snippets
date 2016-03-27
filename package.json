@@ -1,7 +1,7 @@
 {
   "name": "simplyy-snippets",
   "main": "./lib/simplyy-snippets",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "a lot of js snippets collections, with no semicolon,es6 grammer learned from  javascript-snippets,turbo-javascript,nodejs-snippets(copy and inprove, so avoid repeat snippets and unify all of their snippets style)",
   "keywords": [
     "snippets",
