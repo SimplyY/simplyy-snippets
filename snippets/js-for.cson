@@ -18,8 +18,8 @@
         "body": """
                 forEach(${0:function})
                 """
-    "forEachaf":
-        "prefix": "forEach"
+    "forEach mutiline":
+        "prefix": "forEacha"
         "body": """
                 forEach(${1:item} => {
                 \t${0:// body...}
