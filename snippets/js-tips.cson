@@ -1,0 +1,12 @@
+".source.js, .source.jsx, .source.ts":
+    "timeLoop":
+        "prefix": "timeLoop"
+        "body": """
+                (function timeLoop(){
+                    const delay = ${1:1000}
+                    setTimeout(() => {
+                        ${0:// body...}
+                        timeLoop()
+                    }, delay)
+                })()
+                """

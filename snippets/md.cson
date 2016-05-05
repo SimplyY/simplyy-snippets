@@ -1,4 +1,11 @@
 '.source.gfm':
+    'md code':
+        'prefix': 'code-md'
+        'body': """
+                ```
+                ${0}
+                ```
+                """
     'html code':
         'prefix': 'html'
         'body': """

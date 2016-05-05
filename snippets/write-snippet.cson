@@ -1,0 +1,20 @@
+'source.coffee, source.cson':
+    'write js snippet':
+        'prefix': 'jssnippet'
+        'body': """
+                \".source.js, .source.ts, .source.jsx\":
+                    \'$1\':
+                        \'prefix\': \'$2\'
+                        \'body\': \"\"\"
+                                $0
+                                \"\"\"
+                """
+    'write meta snippet':
+        'prefix': 'snippet'
+        'body': """
+                \'$1\':
+                    \'prefix\': \'$2\'
+                    \'body\': \"\"\"
+                            $0
+                            \"\"\"
+                """

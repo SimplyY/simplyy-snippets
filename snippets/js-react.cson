@@ -21,6 +21,15 @@
     'className react':
         'prefix': 'className'
         'body': 'className="$0"'
+    'setState react':
+        'prefix': 'setState'
+        'body': 'setState'
+    'preventDefault':
+        'prefix': 'preventDefault'
+        'body': 'preventDefault()'
+    'stopPropagation':
+        'prefix': 'stopPropagation'
+        'body': 'stopPropagation()'
     'onClick react mutiline':
         'prefix': 'onClickm'
         'body':"""onClick={() => {
@@ -29,9 +38,11 @@
     'onClick react':
         'prefix': 'onClick'
         'body':'onClick={$0}'
-    'preventDefault':
-        'prefix': 'preventDefault'
-        'body': 'preventDefault()'
-    'stopPropagation':
-        'prefix': 'stopPropagation'
-        'body': 'stopPropagation()'
+    'onChange react mutiline':
+        'prefix': 'onChangem'
+        'body':"""onChange={() => {
+                \t$0
+                }}"""
+    'onChange react':
+        'prefix': 'onChange'
+        'body':'onChange={$0}'

@@ -5,14 +5,14 @@
     "setInterval":
         "prefix": "setInterval"
         "body": """
-                setInterval(function() {
+                setInterval(() => {
                 \t${0:// body...}
                 }, ${1:delay})
                 """
     "setTimeout":
         "prefix": "setTimeout"
         "body": """
-                setTimeout(function() {
+                setTimeout(() => {
                 \t${0:// body...}
                 }, ${1:delay})
                 """

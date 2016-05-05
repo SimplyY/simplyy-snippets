@@ -1,4 +1,4 @@
-".source.js, .source.ts, .source.tsx":
+".source.js, .source.ts, .source.jsx":
     "class":
         prefix: "class"
         body: """
@@ -18,3 +18,13 @@
         \t}
         }
         """
+    'class constructor':
+        'prefix': 'constructor class'
+        'body': """
+                constructor(props) {
+                    super(props)
+                }
+                """
+    'fetch':
+        'prefix': 'fetch'
+        'body': 'fetch'

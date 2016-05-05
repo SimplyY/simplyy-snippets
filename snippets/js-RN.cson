@@ -1,0 +1,34 @@
+'.source.js, .source.jsx, .source.ts':
+    'react native class':
+        'prefix': 'react native class'
+        'body': """
+                    import React, {
+                        Component,
+                        StyleSheet,
+                        View
+                    } from \'react-native\'
+
+                    class ${1:className} extends Component {
+                        render() {
+                            return (
+                                <View>
+                                </View>
+                            )
+                        }
+                    }
+
+                    const styles = StyleSheet.create({
+
+                    })
+
+                    export default ${1:className}
+                """
+    'toast rn':
+          'prefix': 'toast rn'
+          'body': """
+                      import { ToastAndroid } from 'react-native'
+                      ToastAndroid.show(${1:msgStr}, ToastAndroid.SHORT)
+                  """
+    'style rn':
+          'prefix': 'style rn'
+          'body': 'style=\{$0\}'

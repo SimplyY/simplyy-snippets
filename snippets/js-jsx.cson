@@ -30,12 +30,6 @@
   'Base':
     'prefix': 'base'
     'body': '<base href="${1:#}" target="${2:_blank}" />$0'
-  'Bi-Directional Isolation':
-    'prefix': 'bdi'
-    'body': '<bdi dir="${1:auto}">$2</bdi>$0'
-  'Bi-Directional Override':
-    'prefix': 'bdo'
-    'body': '<bdo dir="${1:auto}">$2</bdo>$0'
   'Blockquote':
     'prefix': 'blockquote'
     'body': '<blockquote cite="${1:http://}">\n\t$2\n</blockquote>'
@@ -71,9 +65,6 @@
     'prefix': '--'
     'body': '<!-- $1 -->$0'
   # D
-  'HTML — 5':
-    'prefix': 'doctype'
-    'body': '<!DOCTYPE html>\n'
   'Data':
     'prefix': 'data'
     'body': '<data value="$1">$2</data>$0'
@@ -105,13 +96,7 @@
   'Emphasis':
     'prefix': 'em'
     'body': '<em>$1</em>$0'
-  'Embed':
-    'prefix': 'embed'
-    'body': '<embed type="${1:video/quicktime}" src="${2:#}" width="${3:300}" height="${4:300}">$0'
   # F
-  'Favicon':
-    'prefix': 'favicon'
-    'body': '<link rel="shortcut icon" href="$1.ico">$0'
   'Fieldset':
     'prefix': 'fieldset'
     'body': '<fieldset>$1</fieldset>$0'
@@ -209,15 +194,9 @@
   'Menu Item':
     'prefix': 'menuitem'
     'body': '<menuitem type="${1:command}" label="${2:Save}">$0'
-  'Meter':
-    'prefix': 'meter'
-    'body': '<meter min="${1:200}" max="${2:500}" value="${3:350}">$0'
   'Mail Anchor':
     'prefix': 'mailto'
     'body': '<a href="mailto:${1:joe@example.com}?subject=${2:feedback}">${3:email me}</a>$0'
-  'Meta':
-    'prefix': 'meta'
-    'body': '<meta name="${1:name}" content="${2:content}">$0'
   # N
   'Navigation':
     'prefix': 'nav'
@@ -258,29 +237,7 @@
   'Quote':
     'prefix': 'q'
     'body': '<q cite="$1">$2</q>$0'
-  # R
-  'Ruby Base':
-    'prefix': 'rb'
-    'body': '<rb>$1</rb>$0'
-  'Ruby Parenthesis':
-    'prefix': 'rp'
-    'body': '<rp>$1</rp>$0'
-  'Ruby Pronunciation':
-    'prefix': 'rt'
-    'body': '<rt>$1</rt>$0'
-  'Ruby Text Container':
-    'prefix': 'rtc'
-    'body': '<rtc>$1</rtc>$0'
-  'Ruby Annotation':
-    'prefix': 'ruby'
-    'body': '<ruby>$1</ruby>$0'
   # S
-  'Strikethrough':
-    'prefix': 's'
-    'body': '<s>$1</s>$0'
-  'Sample Output':
-    'prefix': 'samp'
-    'body': '<samp>$1</samp>$0'
   'Script':
     'prefix': 'script'
     'body': '<script${1: type="${2:text/javascript}"}>\n\t$3\n</script>'
@@ -318,39 +275,12 @@
     'prefix': 'sup'
     'body': '<sup>$1</sup>$0'
   # T
-  'Table':
-    'prefix': 'table'
-    'body': '<table>\n\t$1\n</table>'
-  'Table Body':
-    'prefix': 'tbody'
-    'body': '<tbody>\n\t$1\n</tbody>'
-  'Table Cell':
-    'prefix': 'td'
-    'body': '<td>\n\t$1\n</td>'
-  'Template':
-    'prefix': 'template'
-    'body': '<template id="$1">\n\t$2\n</template>'
-  'Text Area':
-    'prefix': 'textarea'
-    'body': '<textarea name="${1:name}" rows="${2:8}" cols="${3:40}">$4</textarea>$0'
-  'Table Foot':
-    'prefix': 'tfoot'
-    'body': '<tfoot>\n\t$1\n</tfoot>'
-  'Table Header Cell':
-    'prefix': 'th'
-    'body': '<th>\n\t$1\n</th>'
-  'Table Head':
-    'prefix': 'thead'
-    'body': '<thead>\n\t$1\n</thead>'
   'Time':
     'prefix': 'time'
     'body': '<time>$1</time>$0'
   'Title':
     'prefix': 'title'
     'body': '<title>${1:Page Title}</title>$0'
-  'Table Row':
-    'prefix': 'tr'
-    'body': '<tr>\n\t$1\n</tr>'
   'Track':
     'prefix': 'track'
     'body': '<track kind="${1:subtitles}" src="${2:sampleSubtitles_en.srt}" srclang="${3:en}">$0'
