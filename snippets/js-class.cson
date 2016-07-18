@@ -25,6 +25,3 @@
                     super(props)
                 }
                 """
-    'fetch':
-        'prefix': 'fetch'
-        'body': 'fetch'

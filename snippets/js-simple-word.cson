@@ -41,3 +41,6 @@
     "event":
         "prefix": "event"
         "body": "event"
+    'fetch':
+        'prefix': 'fetch'
+        'body': 'fetch'

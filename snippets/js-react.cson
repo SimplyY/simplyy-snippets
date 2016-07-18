@@ -2,7 +2,7 @@
     'react class':
         'prefix': 'react class'
         'body': """
-                    import React, {Component} from 'react'
+                    import React, { Component } from 'react'
 
                     class ${1:className} extends Component {
                         constructor() {

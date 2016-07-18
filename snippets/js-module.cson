@@ -8,6 +8,9 @@
     "import as":
         "prefix": "importa"
         "body": "import * as ${1} from '${0}'"
+    "export default":
+        "prefix": "exportd"
+        "body": "export default"
     "require":
         "prefix": "require"
         "body": """
