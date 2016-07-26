@@ -28,7 +28,7 @@
     "for in":
         "prefix": "forin"
         "body": """
-                for (${1:prop} in ${2:obj}) {
+                for (let ${1:prop} in ${2:obj}) {
                 \tif (${2:obj}.hasOwnProperty(${1:prop})) {
                 \t\t${0:// body...}
                 \t}

@@ -1,0 +1,8 @@
+".source.js, .source.jsx, .source.ts":
+    "jshint ignore":
+        "prefix": "jshint ignore"
+        "body": """
+                /*jshint ignore:start*/
+                ${0}
+                /*jshint ignore:end*/
+                """
