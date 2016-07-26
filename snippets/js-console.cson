@@ -5,6 +5,6 @@
     'console.log':
         'prefix': 'log'
         'body': 'console.log($0)'
-    'console.error'
+    'console.error':
         'prefix': 'error'
         'body': 'console.error($0)'
