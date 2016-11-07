@@ -1,4 +1,7 @@
 ".source.js, .source.jsx, .source.ts":
+    "yield":
+        "prefix": "yield"
+        "body": "yield"
     "parse":
         "prefix": "parse"
         "body": "parse"

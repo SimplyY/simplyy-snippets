@@ -47,3 +47,18 @@
     'onChange react':
         'prefix': 'onChange'
         'body':'onChange={$0}'
+    'componentWillMount':
+        'preifx': 'componentWillMount'
+        'body': """componentWillMount() {
+                \t$0
+                }"""
+    'componentDidMount':
+        'prefix': 'componentDidMount'
+        'body': """componentDidMount() {
+                \t$0
+                }"""
+    'componentDidUpdate':
+        'prefix': 'componentDidUpdate'
+        'body': """componentDidUpdate() {
+                \t$0
+                }"""
