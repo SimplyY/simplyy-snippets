@@ -1,7 +1,7 @@
 ".source.jsx":
   'jsx comment':
     'prefix': 'comment'
-    'body': '{/* A JSX comment */}'
+    'body': '{/* ${1:A JSX comment} */}'
   'Anchor':
     'prefix': 'a'
     'body': '<a href="${1:#}">$2</a>$0'
