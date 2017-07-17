@@ -6,7 +6,7 @@ apm install simplyy-snippets
 ## 介绍
 > snippets 用来 atom 代码的补全，下载这个插件可以让你的 js 体验补全更爽
 
-> （代码风格这东西需要入乡随俗，我现在转有分号了）有分号风格 snippet 插件在这里 https://github.com/SimplyY/lp-snippets
+> （代码风格这东西需要入乡随俗，我现在转有分号、两格缩进了）两格缩进、有分号风格 snippet 插件在这里 https://github.com/SimplyY/lp-snippets
 
 
 我收集了大量的 snippets（使用 es6 语法，无分号的风格），从很多不错的 snippets，比如 javascript-snippets,turbo-javascript，nodejs-snippets，由此并改进和增加了我自己的一些小技巧，来构建了这个插件
